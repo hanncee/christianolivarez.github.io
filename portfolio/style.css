@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+
+}
+
+.background{
+background-color: rgb(26, 25, 25);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+
+
+.header{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    height: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.logo span{
+    color: rgb(0, 195, 255);
+}
+
+.menu-container ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-container ul li{
+    margin-right: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.menu-container ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-container ul li a:hover{
+    color: rgb(0, 195, 255);
+}
+
+
+.my-image{
+    width: 400px;
+    border-radius: 50%; 
+    box-shadow: 0px 0px 11px  rgba(0, 195, 255,1 );;
+}
+
+.left-container{
+    width: 600px;
+}
+
+.left-container .greetings{
+font-size: 30px;
+color: white;
+}
+
+.left-container h1{
+    font-size: 65px;
+    color: rgb(0, 195, 255);
+    
+}
+
+.left-container .introduction{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.left-container .introduction span{
+    color: rgb(0, 195, 255);
+    font-size: 25px;
+}
+
+
+.button button{
+color: black;
+font-family: roboto;
+font-weight: 700;
+font-size: 18px;
+background-color: rgb(0, 195, 255);;
+border:  none;
+border-radius: 2px;
+padding: 5px 10px;
+margin-top: 10px;
+cursor: pointer;
+transition: box-shadow 0.3s;
+}
+
+.button button:hover{
+    box-shadow: 0px 0px 10px  rgb(0, 195, 255);;
+}
+
+.button-socmed{
+    display: flex;
+    align-items: center;
+
+}
+
+.socmed{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.socmed-icon{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+#About{
+    height: 700px;
+    background-color: rgb(17, 17, 17);
+}
+
+.about-me-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.about-me-image{
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 195, 255);;
+
+    
+ 
+}
+
+.about-me-text{
+    width: 400px;
+}
+
+.about-me-text h1{
+    color: rgb(0, 195, 255);
+    font-size: 35px;
+}
+
+.about-me-text p{
+    color: white;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+#Skills{
+    height: 700px;
+    background-color: rgb(26, 25, 25);
+}
+
+.skill-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+}
+
+.html-card, .css-card, .Javascript-card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px  rgb(0, 195, 255);;
+
+}
+
+.Javascript-card{
+    margin-right: 0px;
+}
+
+.html-logo, .css-logo, .javascript-logo{
+    width: 75px;
+    margin-bottom: 20px;
+    
+}
+
+.html-card, .css-card, .Javascript-card p{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+
+}
+
+.skills{
+    text-align: center;
+ 
+}
+
+.skills{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 195, 255);
+    padding-top: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+}
+
+#Certificates{
+    height: 700px;
+    background-color: rgb(17, 17, 17);
+}
+
+.image-certificate{
+    width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 195, 255 );
+
+}
+
+.certificates{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 195, 255);
+    padding-top: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+  
+}
+
+.certificates-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ height: 100%;
+}
+
+.freecodecamp-container, .meta-container, .sololearn-css-container, .sololearn-html-container{
+    position: relative;
+ 
+}
+
+.freecodecamp-container:hover .gray-opacity{
+    opacity: 0.8;
+    border: 1px solid rgb(0, 195, 255);
+}
+
+
+.meta-container:hover .gray-opacity{
+    opacity: 0.8;
+    border: 1px solid rgb(0, 195, 255);
+}
+.sololearn-css-container:hover .gray-opacity{
+    opacity: 0.8;
+    border: 1px solid rgb(0, 195, 255);
+}
+
+.sololearn-html-container:hover .gray-opacity{
+    opacity: 0.8;
+    border: 1px solid rgb(0, 195, 255);
+}
+
+
+
+.gray-opacity{
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    right: 50px;
+    left: 0px;
+    bottom: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s, border 0.5s;
+    
+}
+
+
+
+.gray-opacity{
+    color: rgb(0, 195, 255);
+}
+
+.gray-opacity p{
+    font-size: 17px;
+    font-weight: 700px;
+}
+
+#Contact{
+    height: 700px;
+    background-color: rgb(26, 25, 25);
+    position: relative;
+}
+
+.send-message{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 195, 255);
+    padding-top: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.getting-touch{
+    color: rgb(0, 195, 255);
+    font-size: 25px;
+}
+
+.contact-number{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.gmail-account{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.right-section{
+    margin-left: 40px;
+}
+
+.name, .email{
+    display: block;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+.your-message{
+    display: block;
+    padding-bottom: 200px;
+    padding-top: 10px;
+    width: 400px;
+    text-align: start;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.message-button{
+color: black;
+font-family: roboto;
+font-weight: 700;
+font-size: 15px;
+background-color: rgb(0, 195, 255);;
+border:  none;
+border-radius: 2px;
+padding: 10px 10px;
+margin-top: 10px;
+cursor: pointer;
+transition: box-shadow 0.3s;
+margin-top: 10px;
+float: right;
+
+}
+
+.message-button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 195, 255 );
+}
